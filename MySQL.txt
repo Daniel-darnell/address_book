@@ -1,0 +1,10 @@
+A Text file that describes MySQL steps taken whilst building this address book from firing up the mysql
+in the terminal to insertting dummy data in the database as shown in the steps below:-
+Linux users, use CTRL + ALT + T to fire up the terminal
+write the command "mysql -u root -p" to start and open the mysql database
+use the command "CREATE DATABASE address_book;" to create an address_book database
+use the "show databases;" command to list all databases to confirm address_book has been created
+select the database for use using the command "USE address_book;"
+use the command "CREATE TABLE address (id INT(4), name VARCHAR(30), phone VARCHAR(30), email VARCHAR(30), street VARCHAR(30), zipcode VARCHAR(30), city VARCHAR(30));" to create database TABLE
+use the command "CREATE TABLE address ("Darnell", "+254111939405", "darnelldanny1997@gmail.com", "Podozi Street", "484", "Nairobi");" to insert dummy data into our database table
+
